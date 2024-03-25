@@ -35,7 +35,7 @@ function Registration({ navigation }): React.JSX.Element {
                 'registrationDatas',
                 JSON.stringify(registrationArray),
             );
-            Alert.alert('Success', 'Registration Completed', [
+            Alert.alert('Success', 'Registration Completed You can now Use our Remainder app', [
                 {
                     text: 'OK',
                     onPress: () => {
